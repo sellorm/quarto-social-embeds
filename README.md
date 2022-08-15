@@ -6,8 +6,8 @@ Currently includes shortcodes for the following:
 
 * GitHub gists
 * Twitter
-* Youtube
 * Vimeo
+* Youtube
 
 ## Installation
 

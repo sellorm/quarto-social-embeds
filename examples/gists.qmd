@@ -1,0 +1,17 @@
+# GitHub gists
+
+Embed a gist using:
+
+``` {.markdown shortcodes="false"}
+{{< gist <USERNAME> <GIST_ID> >}}
+``` 
+Both `<USERNAME>` and `<GIST_ID>` can be extracted from the gist URL.
+For instance, in this URL `https://gist.github.com/sellorm/20525aff669acafb975b7495b8f2066e` the username is `sellorm` and the ID is `20525aff669acafb975b7495b8f2066e`, giving us:
+
+``` {.markdown shortcodes="false"}
+{{< gist sellorm 20525aff669acafb975b7495b8f2066e >}}
+```
+
+Which is rendered like this:
+
+{{< gist sellorm 20525aff669acafb975b7495b8f2066e >}}

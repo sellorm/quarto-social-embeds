@@ -1,0 +1,22 @@
+# Quarto social embeds
+
+A [Quarto](https://quarto.org) extension to embed content from across the web into a quarto-rendered html document using a shortcode.
+
+Currently includes shortcodes for the following:
+
+* [GitHub gists](examples/gists.qmd)
+* [Twitter](examples/twitter.qmd)
+* [Vimeo](examples/twitter.qmd)
+* [Youtube](examples/youtube.qmd)
+
+## Installation
+
+Install the extension with:
+
+``` bash
+quarto install extension sellorm/quarto-social-embeds
+```
+
+## License
+
+quarto-social-embeds is released under an MIT License. See the [LICENSE](https://github.com/sellorm/quarto-social-embeds/blob/main/LICENSE) for more info.

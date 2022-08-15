@@ -1,0 +1,37 @@
+# Twitter
+
+To embed a Tweet into your Quarto html document you can use the shortcode like this:
+
+``` {.markdown shortcodes="false"}
+{{< tweet <USERNAME> <ID> >}}
+```
+
+or
+
+``` {.markdown shortcodes="false"}
+{{< tweet user=<USERNAME> id=<ID> >}}
+```
+
+This second option is provided for compatibility with [Hugo](https://gohugo.io/content-management/shortcodes/#tweet).
+
+For example:
+
+``` {.markdown shortcodes="false"}
+{{< tweet sellorm 1555267341327503367 >}}
+```
+
+or
+
+``` {.markdown shortcodes="false"}
+{{< tweet user=sellorm id=1555267341327503367 >}}
+```
+
+This renders like this:
+
+{{< tweet sellorm 1555267341327503367 >}}
+
+You can obtain the username and status id of a tweet by clicking the "share tweet" button and choosing "copy URL".
+
+This will give you a URL like this one: `https://twitter.com/sellorm/status/1555267341327503367?s=21&t=M0M4IA_KW-zMY1rb2XOWZQ`.
+The "user" is the section between `twitter.com/` and `/status`.
+The status "id" is everything between `status/` and `?` or the end of the URL, whichever comes first.
