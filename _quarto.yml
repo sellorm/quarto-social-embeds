@@ -3,6 +3,8 @@ project:
 
 website:
   title: "Quarto social embeds"
+  repo-url: https://github.com/sellorm/quarto-social-embeds
+  repo-actions: [edit, issue]
   navbar:
     left:
       - href: index.qmd
