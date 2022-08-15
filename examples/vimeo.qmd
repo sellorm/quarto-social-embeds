@@ -1,0 +1,20 @@
+# Vimeo
+
+To embed a Vimo video in your HTML document use this shortcode:
+
+``` {.markdown shortcodes="false"}
+{{< vimeo <VIDEO_ID> >}}
+```
+
+Where `<VIDEO_ID>` is the vimeo video ID. For example:
+
+``` {.markdown shortcodes="false"}
+{{< vimeo 22439234 >}}
+```
+
+Which renders like this:
+
+{{< vimeo 22439234 >}}
+
+You can get the VIDEO ID from for the URL of the video. For instance, in the URL `https://vimeo.com/channels/top/22439234` the video ID is `22439234`.
+

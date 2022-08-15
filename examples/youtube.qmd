@@ -1,0 +1,22 @@
+# Youtube
+
+To embed a Youtube video into your Quarto html document you can use the shortcode like this:
+
+``` {.markdown shortcodes="false"}
+{{< youtube <VIDEO_ID> >}}
+```
+
+Where `<VIDEO_ID>` is the youtube video ID. For example:
+
+``` {.markdown shortcodes="false"}
+{{< youtube zk9zHqXm6m0 >}}
+```
+
+Which is rendered like this:
+
+{{< youtube zk9zHqXm6m0 >}}
+
+You can obtain the video ID by inspecting Youtube's URLs.
+
+For instance, in this URL, `https://www.youtube.com/watch?v=zk9zHqXm6m0` the video ID is the part after `v=` in the URL.
+
