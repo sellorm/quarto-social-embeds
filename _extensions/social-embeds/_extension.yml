@@ -1,0 +1,9 @@
+title: social-embeds
+author: Mark Sellors
+version: 0.0.1
+contributes:
+  shortcodes:
+    - gists.lua
+    - twitter.lua
+    - youtube.lua
+    - vimeo.lua
