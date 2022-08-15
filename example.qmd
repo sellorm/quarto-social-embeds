@@ -8,6 +8,8 @@ format: html
 
 Here is a gist I wrote:
 
+(Uses the shortcode: `{{< gist sellorm 20525aff669acafb975b7495b8f2066e >}}`)
+
 {{< gist sellorm 20525aff669acafb975b7495b8f2066e >}}
 
 Gists can be pretty handy.
@@ -15,6 +17,8 @@ Gists can be pretty handy.
 ## Twitter
 
 Here is a tweet that I tweeted on Twitter:
+
+(Uses the shortcode: `{{< tweet sellorm 1555267341327503367 >}}`)
 
 {{< tweet sellorm 1555267341327503367 >}}
 
@@ -25,6 +29,8 @@ Duke Caboom _is_ pretty great!
 
 This is a video I created for [rstudio::conf(2022)](https://www.rstudio.com/conference/).
 
+(Uses the shortcode: `{{< youtube zk9zHqXm6m0 >}}`)
+
 {{< youtube zk9zHqXm6m0 >}}
 
 The video is about my [R4Pi](https://r4pi.org) project.
@@ -33,6 +39,8 @@ The video is about my [R4Pi](https://r4pi.org) project.
 ## Vimeo
 
 A video from Vimeo:
+
+(Uses the shortcode: `{{< vimeo 22439234 >}}`)
 
 {{< vimeo 22439234 >}}
 
