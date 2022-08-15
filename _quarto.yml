@@ -5,6 +5,7 @@ website:
   title: "Quarto social embeds"
   repo-url: https://github.com/sellorm/quarto-social-embeds
   repo-actions: [edit, issue]
+  site-url: https://quarto-social-embeds.sellorm.com
   navbar:
     left:
       - href: index.qmd
