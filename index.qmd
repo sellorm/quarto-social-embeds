@@ -6,7 +6,7 @@ Currently includes shortcodes for the following:
 
 * [GitHub gists](examples/gists.qmd)
 * [Twitter](examples/twitter.qmd)
-* [Vimeo](examples/twitter.qmd)
+* [Vimeo](examples/vimeo.qmd)
 * [Youtube](examples/youtube.qmd)
 
 ## Installation
@@ -16,6 +16,13 @@ Install the extension with:
 ``` bash
 quarto install extension sellorm/quarto-social-embeds
 ```
+
+## Usage
+
+Check the individual examples in the navbar above for specific examples.
+
+This site was built using the extension, so the examples are actual working examples.
+Check the [GitHub repo](https://quarto.org/sellorm/quarto-social-embeds) to see the site's underlying `.qmd` files.
 
 ## License
 
