@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Quarto social embeds",
     "section": "",
-    "text": "A Quarto extension to embed content from across the web into a quarto-rendered html document using a shortcode.\nCurrently includes shortcodes for the following:\n\nGitHub gists\nTwitter\nVimeo\nYoutube\n\n\n\nInstall the extension with:\nquarto install extension sellorm/quarto-social-embeds\n\n\n\nquarto-social-embeds is released under an MIT License. See the LICENSE for more info."
+    "text": "A Quarto extension to embed content from across the web into a quarto-rendered html document using a shortcode.\nCurrently includes shortcodes for the following:\n\nGitHub gists\nTwitter\nVimeo\nYoutube\n\n\n\nInstall the extension with:\nquarto install extension sellorm/quarto-social-embeds\n\n\n\nCheck the individual examples in the navbar above for specific examples.\nThis site was built using the extension, so the examples are actual working examples. Check the GitHub repo to see the site’s underlying .qmd files.\n\n\n\nquarto-social-embeds is released under an MIT License. See the LICENSE for more info."
   },
   {
     "objectID": "examples/gists.html",
