@@ -1,10 +1,52 @@
 [
   {
+    "objectID": "example.html",
+    "href": "example.html",
+    "title": "social embedding examples",
+    "section": "",
+    "text": "Here is a gist I wrote:\n(Uses the shortcode: )\n\nGists can be pretty handy."
+  },
+  {
+    "objectID": "example.html#twitter",
+    "href": "example.html#twitter",
+    "title": "social embedding examples",
+    "section": "Twitter",
+    "text": "Twitter\nHere is a tweet that I tweeted on Twitter:\n(Uses the shortcode: )\n\nDuke Caboom is pretty great!"
+  },
+  {
+    "objectID": "example.html#vimeo",
+    "href": "example.html#vimeo",
+    "title": "social embedding examples",
+    "section": "Vimeo",
+    "text": "Vimeo\nA video from Vimeo:\n(Uses the shortcode: )\n   \nIt’s very beautiful."
+  },
+  {
+    "objectID": "example.html#youtube",
+    "href": "example.html#youtube",
+    "title": "social embedding examples",
+    "section": "Youtube",
+    "text": "Youtube\nThis is a video I created for rstudio::conf(2022).\n(Uses the shortcode: )\n\nThe video is about my R4Pi project."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Quarto social embeds",
     "section": "",
-    "text": "A Quarto extension to embed content from across the web into a quarto-rendered html document using a shortcode.\nCurrently includes shortcodes for the following:\n\nGitHub gists\nTwitter\nVimeo\nYoutube\n\n\n\nInstall the extension with:\nquarto install extension sellorm/quarto-social-embeds\n\n\n\nCheck the individual examples in the navbar above for specific examples.\nThis site was built using the extension, so the examples are actual working examples. Check the GitHub repo to see the site’s underlying .qmd files.\n\n\n\nquarto-social-embeds is released under an MIT License. See the LICENSE for more info."
+    "text": "A Quarto extension to embed content from across the web into a quarto-rendered html document using a shortcode.\nCurrently includes shortcodes for the following:\n\nGitHub gists\nLoom\nTwitter\nVimeo\nYoutube\n\n\n\nInstall the extension with:\nquarto install extension sellorm/quarto-social-embeds\n\n\n\nCheck the individual examples in the navbar above for specific examples.\nThis site was built using the extension, so the examples are actual working examples. Check the GitHub repo to see the site’s underlying .qmd files.\n\n\n\nquarto-social-embeds is released under an MIT License. See the LICENSE for more info."
+  },
+  {
+    "objectID": "examples/youtube.html",
+    "href": "examples/youtube.html",
+    "title": "Quarto social embeds",
+    "section": "",
+    "text": "To embed a Youtube video into your Quarto html document you can use the shortcode like this:\n{{< youtube <VIDEO_ID> >}}\nWhere <VIDEO_ID> is the youtube video ID. For example:\n{{< youtube zk9zHqXm6m0 >}}\nWhich is rendered like this:\n\nYou can obtain the video ID by inspecting Youtube’s URLs.\nFor instance, in this URL, https://www.youtube.com/watch?v=zk9zHqXm6m0 the video ID is the part after v= in the URL."
+  },
+  {
+    "objectID": "examples/loom.html",
+    "href": "examples/loom.html",
+    "title": "Quarto social embeds",
+    "section": "",
+    "text": "To embed a Loom video in your HTML document use this shortcode:\n{{< loom <VIDEO_ID> >}}\nWhere <VIDEO_ID> is the loom video ID. For example:\n{{< loom 8619b03224f74282b6d56cbedbcd3fc6 >}}\nWhich renders like this:\n\nYou can get the VIDEO ID from for the URL of the video. For instance, in the URL https://www.loom.com/share/8619b03224f74282b6d56cbedbcd3fc6 the video ID is 8619b03224f74282b6d56cbedbcd3fc6."
   },
   {
     "objectID": "examples/gists.html",
@@ -21,45 +63,10 @@
     "text": "To embed a Tweet into your Quarto html document you can use the shortcode like this:\n{{< tweet <USERNAME> <ID> >}}\nor\n{{< tweet user=<USERNAME> id=<ID> >}}\nThis second option is provided for compatibility with Hugo.\nFor example:\n{{< tweet sellorm 1555267341327503367 >}}\nor\n{{< tweet user=sellorm id=1555267341327503367 >}}\nThis renders like this:\n\nYou can obtain the username and status id of a tweet by clicking the “share tweet” button and choosing “copy URL”.\nThis will give you a URL like this one: https://twitter.com/sellorm/status/1555267341327503367?s=21&t=M0M4IA_KW-zMY1rb2XOWZQ. The “user” is the section between twitter.com/ and /status. The status “id” is everything between status/ and ? or the end of the URL, whichever comes first."
   },
   {
-    "objectID": "examples/youtube.html",
-    "href": "examples/youtube.html",
-    "title": "Quarto social embeds",
-    "section": "",
-    "text": "To embed a Youtube video into your Quarto html document you can use the shortcode like this:\n{{< youtube <VIDEO_ID> >}}\nWhere <VIDEO_ID> is the youtube video ID. For example:\n{{< youtube zk9zHqXm6m0 >}}\nWhich is rendered like this:\n\nYou can obtain the video ID by inspecting Youtube’s URLs.\nFor instance, in this URL, https://www.youtube.com/watch?v=zk9zHqXm6m0 the video ID is the part after v= in the URL."
-  },
-  {
     "objectID": "examples/vimeo.html",
     "href": "examples/vimeo.html",
     "title": "Quarto social embeds",
     "section": "",
-    "text": "To embed a Vimo video in your HTML document use this shortcode:\n{{< vimeo <VIDEO_ID> >}}\nWhere <VIDEO_ID> is the vimeo video ID. For example:\n{{< vimeo 22439234 >}}\nWhich renders like this:\n   \nYou can get the VIDEO ID from for the URL of the video. For instance, in the URL https://vimeo.com/channels/top/22439234 the video ID is 22439234."
-  },
-  {
-    "objectID": "example.html",
-    "href": "example.html",
-    "title": "social embedding examples",
-    "section": "",
-    "text": "Here is a gist I wrote:\n(Uses the shortcode: )\n\nGists can be pretty handy."
-  },
-  {
-    "objectID": "example.html#twitter",
-    "href": "example.html#twitter",
-    "title": "social embedding examples",
-    "section": "Twitter",
-    "text": "Twitter\nHere is a tweet that I tweeted on Twitter:\n(Uses the shortcode: )\n\nDuke Caboom is pretty great!"
-  },
-  {
-    "objectID": "example.html#youtube",
-    "href": "example.html#youtube",
-    "title": "social embedding examples",
-    "section": "Youtube",
-    "text": "Youtube\nThis is a video I created for rstudio::conf(2022).\n(Uses the shortcode: )\n\nThe video is about my R4Pi project."
-  },
-  {
-    "objectID": "example.html#vimeo",
-    "href": "example.html#vimeo",
-    "title": "social embedding examples",
-    "section": "Vimeo",
-    "text": "Vimeo\nA video from Vimeo:\n(Uses the shortcode: )\n   \nIt’s very beautiful."
+    "text": "To embed a Vimeo video in your HTML document use this shortcode:\n{{< vimeo <VIDEO_ID> >}}\nWhere <VIDEO_ID> is the vimeo video ID. For example:\n{{< vimeo 22439234 >}}\nWhich renders like this:\n   \nYou can get the VIDEO ID from for the URL of the video. For instance, in the URL https://vimeo.com/channels/top/22439234 the video ID is 22439234."
   }
 ]

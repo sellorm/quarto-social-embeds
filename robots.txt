@@ -1,1 +1,1 @@
-Sitemap: https://github.com/sellorm/quarto-social-embeds/sitemap.xml
+Sitemap: https://quarto-social-embeds.sellorm.com/sitemap.xml
