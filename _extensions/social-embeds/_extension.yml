@@ -4,6 +4,7 @@ version: 0.0.1
 contributes:
   shortcodes:
     - gists.lua
+    - loom.lua
     - twitter.lua
-    - youtube.lua
     - vimeo.lua
+    - youtube.lua

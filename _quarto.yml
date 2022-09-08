@@ -13,6 +13,7 @@ website:
       - text: Examples
         menu: 
         - examples/gists.qmd
+        - examples/loom.qmd
         - examples/twitter.qmd
         - examples/vimeo.qmd
         - examples/youtube.qmd
@@ -28,7 +29,7 @@ format:
   html:
     theme: flatly
     css: styles.css
-    toc: true
+    toc: false
 
 
 

@@ -1,7 +1,10 @@
 ---
 title: social embedding examples
 Author: Mark Sellors
-format: html
+format:
+  html:
+    toc: true
+
 ---
 
 ## GitHub gists
@@ -14,6 +17,11 @@ Here is a gist I wrote:
 
 Gists can be pretty handy.
 
+
+{{< include examples/loom.qmd >}}
+
+
+
 ## Twitter
 
 Here is a tweet that I tweeted on Twitter:
@@ -25,17 +33,6 @@ Here is a tweet that I tweeted on Twitter:
 Duke Caboom _is_ pretty great!
 
 
-## Youtube
-
-This is a video I created for [rstudio::conf(2022)](https://www.rstudio.com/conference/).
-
-(Uses the shortcode: `{{< youtube zk9zHqXm6m0 >}}`)
-
-{{< youtube zk9zHqXm6m0 >}}
-
-The video is about my [R4Pi](https://r4pi.org) project.
-
-
 ## Vimeo
 
 A video from Vimeo:
@@ -45,4 +42,16 @@ A video from Vimeo:
 {{< vimeo 22439234 >}}
 
 It's very beautiful.
+
+
+
+## Youtube
+
+This is a video I created for [rstudio::conf(2022)](https://www.rstudio.com/conference/).
+
+(Uses the shortcode: `{{< youtube zk9zHqXm6m0 >}}`)
+
+{{< youtube zk9zHqXm6m0 >}}
+
+The video is about my [R4Pi](https://r4pi.org) project.
 

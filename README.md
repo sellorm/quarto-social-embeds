@@ -5,6 +5,7 @@ A [Quarto](https://quarto.org) extension to embed content from across the web in
 Currently includes shortcodes for the following:
 
 * GitHub gists
+* Loom
 * Twitter
 * Vimeo
 * Youtube
@@ -28,6 +29,28 @@ Embed a gist using `{{< gist USERNAME GIST_ID >}}`. Both `USERNAME` and `GIST_ID
 ```
 
 See `example.qmd` for a working example.
+
+# Loom
+
+To embed a Loom video in your HTML document use this shortcode:
+
+``` {.markdown shortcodes="false"}
+{{< loom <VIDEO_ID> >}}
+```
+
+Where `<VIDEO_ID>` is the loom video ID. For example:
+
+``` {.markdown shortcodes="false"}
+{{< loom 8619b03224f74282b6d56cbedbcd3fc6 >}}
+```
+
+Which renders like this:
+
+{{< loom 8619b03224f74282b6d56cbedbcd3fc6 >}}
+
+You can get the VIDEO ID from for the URL of the video.
+For instance, in the URL `https://www.loom.com/share/8619b03224f74282b6d56cbedbcd3fc6` the video ID is `8619b03224f74282b6d56cbedbcd3fc6`.
+
 
 ### Twitter
 
@@ -98,3 +121,5 @@ Where `VIDEO_ID` is the vimeo video ID. For example:
 You can get the VIDEO ID from for the URL of the video. For instance, in the URL `https://vimeo.com/channels/top/22439234` the video ID is `22439234`.
 
 See `example.qmd` for a working example.
+
+

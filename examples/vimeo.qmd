@@ -1,6 +1,6 @@
 # Vimeo
 
-To embed a Vimo video in your HTML document use this shortcode:
+To embed a Vimeo video in your HTML document use this shortcode:
 
 ``` {.markdown shortcodes="false"}
 {{< vimeo <VIDEO_ID> >}}
