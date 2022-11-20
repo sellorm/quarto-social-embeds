@@ -26,12 +26,9 @@ Gists can be pretty handy.
 
 Here is a tweet that I tweeted on Twitter:
 
-(Uses the shortcode: `{{< tweet sellorm 1555267341327503367 >}}`)
+(Uses the shortcode: `https://twitter.com/juliesquid/status/1557485909486059523`)
 
-{{< tweet sellorm 1555267341327503367 >}}
-
-Duke Caboom _is_ pretty great!
-
+{{< tweet juliesquid 1557485909486059523 >}}
 
 ## Vimeo
 
