@@ -53,7 +53,7 @@
     "href": "example.html#twitter",
     "title": "social embedding examples",
     "section": "Twitter",
-    "text": "Twitter\nHere is a tweet that I tweeted on Twitter:\n(Uses the shortcode: )\n\n\n;document.getElementById(\"tweet-33937\").innerHTML = tweet[\"html\"];\nDuke Caboom is pretty great!"
+    "text": "Twitter\nHere is a tweet that I tweeted on Twitter:\n(Uses the shortcode: https://twitter.com/juliesquid/status/1557485909486059523)"
   },
   {
     "objectID": "example.html#vimeo",
