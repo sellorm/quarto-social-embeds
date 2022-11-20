@@ -17,21 +17,21 @@ This second option is provided for compatibility with [Hugo](https://gohugo.io/c
 For example:
 
 ``` {.markdown shortcodes="false"}
-{{< tweet sellorm 1555267341327503367 >}}
+{{< tweet juliesquid 1557485909486059523 >}}
 ```
 
 or
 
 ``` {.markdown shortcodes="false"}
-{{< tweet user=sellorm id=1555267341327503367 >}}
+{{< tweet user=juliesquid id=1557485909486059523 >}}
 ```
 
 This renders like this:
 
-{{< tweet sellorm 1555267341327503367 >}}
+{{< tweet juliesquid 1557485909486059523 >}}
 
 You can obtain the username and status id of a tweet by clicking the "share tweet" button and choosing "copy URL".
 
-This will give you a URL like this one: `https://twitter.com/sellorm/status/1555267341327503367?s=21&t=M0M4IA_KW-zMY1rb2XOWZQ`.
+This will give you a URL like this one: `https://twitter.com/juliesquid/status/1557485909486059523`.
 The "user" is the section between `twitter.com/` and `/status`.
-The status "id" is everything between `status/` and `?` or the end of the URL, whichever comes first.
+The status "id" is everything between `status/` and the end of the URL or `?`, whichever comes first.
