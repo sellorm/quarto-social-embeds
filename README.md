@@ -130,7 +130,7 @@ where instance is the name of a mastodon instance, for example mastodon.social, 
 `@sellorm/109376707453406631`.
 
 ```
-{{< mastodon mastodon @sellorm/109376707453406631>}}
+{{< mastodon mastodon.social @sellorm/109376707453406631>}}
 ```
 
 See `example.qmd` for a working example.
