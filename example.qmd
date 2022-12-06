@@ -11,7 +11,10 @@ format:
 
 Here is a gist I wrote:
 
-(Uses the shortcode: `{{< gist sellorm 20525aff669acafb975b7495b8f2066e >}}`)
+Uses the shortcode: 
+```{.markdown shortcodes="false"} 
+{{< gist sellorm 20525aff669acafb975b7495b8f2066e >}}
+```
 
 {{< gist sellorm 20525aff669acafb975b7495b8f2066e >}}
 
@@ -34,7 +37,10 @@ Here is a tweet that I tweeted on Twitter:
 
 A video from Vimeo:
 
-(Uses the shortcode: `{{< vimeo 22439234 >}}`)
+Uses the shortcode: 
+```{.markdown shortcodes="false"} 
+{{< vimeo 22439234 >}}
+```
 
 {{< vimeo 22439234 >}}
 
@@ -46,7 +52,10 @@ It's very beautiful.
 
 This is a video I created for [rstudio::conf(2022)](https://www.rstudio.com/conference/).
 
-(Uses the shortcode: `{{< youtube zk9zHqXm6m0 >}}`)
+Uses the shortcode: 
+```{.markdown shortcodes="false"} 
+{{< youtube zk9zHqXm6m0 >}}
+```
 
 {{< youtube zk9zHqXm6m0 >}}
 
@@ -56,6 +65,9 @@ The video is about my [R4Pi](https://r4pi.org) project.
 
 This is a post on mastodon
 
-(Uses this shortcode: `{{< mastodon mastodon.social @sellorm/109376707453406631 >}}`)
+Uses this shortcode: 
+```{.markdown shortcodes="false"} 
+{{< mastodon https://mastodon.social/@sellorm/109376707453406631 >}}
+```
 
-{{< mastodon mastodon.social @sellorm/109376707453406631 >}}
+{{< mastodon https://mastodon.social/@sellorm/109376707453406631 >}}
