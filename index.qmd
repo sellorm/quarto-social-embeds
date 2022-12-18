@@ -6,6 +6,7 @@ Currently includes shortcodes for the following:
 
 * [GitHub gists](examples/gists.qmd)
 * [Loom](examples/loom.qmd)
+* [Mastodon](examples/mastodon.qmd)
 * [Twitter](examples/twitter.qmd)
 * [Vimeo](examples/vimeo.qmd)
 * [Youtube](examples/youtube.qmd)

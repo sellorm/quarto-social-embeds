@@ -14,13 +14,14 @@ website:
         menu: 
         - examples/gists.qmd
         - examples/loom.qmd
+        - examples/mastodon.qmd
         - examples/twitter.qmd
         - examples/vimeo.qmd
         - examples/youtube.qmd
     right:
-      - icon: twitter
-        href: https://twitter.com/sellorm
-        aria-label: sellorm Twitter
+      - icon: mastodon
+        href: https://mastodon.social/@sellorm
+        aria-label: sellorm Mastodon
       - icon: github
         href: https://github.com/sellorm/quarto-social-embeds
         aria-label: GitHub

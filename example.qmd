@@ -23,6 +23,7 @@ Gists can be pretty handy.
 
 {{< include examples/loom.qmd >}}
 
+{{< include examples/mastodon.qmd >}}
 
 
 ## Twitter
@@ -60,14 +61,3 @@ Uses the shortcode:
 {{< youtube zk9zHqXm6m0 >}}
 
 The video is about my [R4Pi](https://r4pi.org) project.
-
-## Mastodon
-
-This is a post on mastodon
-
-Uses this shortcode: 
-```{.markdown shortcodes="false"} 
-{{< mastodon https://mastodon.social/@sellorm/109376707453406631 >}}
-```
-
-{{< mastodon https://mastodon.social/@sellorm/109376707453406631 >}}

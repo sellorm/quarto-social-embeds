@@ -1,0 +1,21 @@
+## Mastodon
+
+This is a post on mastodon
+
+Uses this shortcode: 
+```{.markdown shortcodes="false"} 
+{{< mastodon "https://mastodon.social/@sellorm/109376707453406631" >}}
+```
+
+:::{.callout-note}
+You _must_ enclose the Mastodon URL in quotes, or the post will not be displayed.
+:::
+
+{{< mastodon "https://mastodon.social/@sellorm/109376707453406631" >}}
+
+
+You can obtain the username and status id of a tweet by clicking the "share tweet" button and choosing "copy URL".
+
+This will give you a URL like this one: `https://twitter.com/juliesquid/status/1557485909486059523`.
+The "user" is the section between `twitter.com/` and `/status`.
+The status "id" is everything between `status/` and the end of the URL or `?`, whichever comes first.
