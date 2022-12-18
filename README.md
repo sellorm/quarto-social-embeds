@@ -123,3 +123,13 @@ You can get the VIDEO ID from for the URL of the video. For instance, in the URL
 See `example.qmd` for a working example.
 
 
+### Mastodon
+
+To embed a post from a mastodon instance in yout HTM document use this shortcode, `{{< mastodon  status_url>}}`,
+A status URL looks like this `https://mastodon.social/@sellorm/109376707453406631` 
+
+```
+{{< mastodon https://mastodon.social/@sellorm/109376707453406631>}}
+```
+
+See `example.qmd` for a working example.
