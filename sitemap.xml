@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://quarto-social-embeds.sellorm.com/index.html</loc>
-    <lastmod>2022-11-20T00:12:29.387Z</lastmod>
+    <loc>https://quarto-social-embeds.sellorm.com/examples/loom.html</loc>
+    <lastmod>2022-12-18T01:26:12.596Z</lastmod>
   </url>
   <url>
     <loc>https://quarto-social-embeds.sellorm.com/examples/youtube.html</loc>
-    <lastmod>2022-11-20T00:12:31.307Z</lastmod>
-  </url>
-  <url>
-    <loc>https://quarto-social-embeds.sellorm.com/examples/loom.html</loc>
-    <lastmod>2022-11-20T00:12:31.735Z</lastmod>
-  </url>
-  <url>
-    <loc>https://quarto-social-embeds.sellorm.com/examples/vimeo.html</loc>
-    <lastmod>2022-11-20T00:12:32.139Z</lastmod>
-  </url>
-  <url>
-    <loc>https://quarto-social-embeds.sellorm.com/examples/gists.html</loc>
-    <lastmod>2022-11-20T00:12:32.503Z</lastmod>
+    <lastmod>2022-12-18T01:26:12.924Z</lastmod>
   </url>
   <url>
     <loc>https://quarto-social-embeds.sellorm.com/examples/twitter.html</loc>
-    <lastmod>2022-11-20T00:12:33.056Z</lastmod>
+    <lastmod>2022-12-18T01:26:13.400Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quarto-social-embeds.sellorm.com/examples/gists.html</loc>
+    <lastmod>2022-12-18T01:26:13.720Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quarto-social-embeds.sellorm.com/examples/vimeo.html</loc>
+    <lastmod>2022-12-18T01:26:14.024Z</lastmod>
   </url>
   <url>
     <loc>https://quarto-social-embeds.sellorm.com/example.html</loc>
-    <lastmod>2022-11-20T00:12:33.612Z</lastmod>
+    <lastmod>2022-12-18T01:26:14.556Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quarto-social-embeds.sellorm.com/index.html</loc>
+    <lastmod>2022-12-18T01:26:14.876Z</lastmod>
   </url>
 </urlset>
