@@ -21,6 +21,13 @@
     "text": "Twitter\nTo embed a Tweet into your Quarto html document you can use the shortcode like this:\n{{< tweet <USERNAME> <ID> >}}\nor\n{{< tweet user=<USERNAME> id=<ID> >}}\nThis second option is provided for compatibility with Hugo.\nFor example:\n{{< tweet juliesquid 1557485909486059523 >}}\nor\n{{< tweet user=juliesquid id=1557485909486059523 >}}\nThis renders like this:\n\nYou can obtain the username and status id of a tweet by clicking the “share tweet” button and choosing “copy URL”.\nThis will give you a URL like this one: https://twitter.com/juliesquid/status/1557485909486059523. The “user” is the section between twitter.com/ and /status. The status “id” is everything between status/ and the end of the URL or ?, whichever comes first."
   },
   {
+    "objectID": "examples/mastodon.html",
+    "href": "examples/mastodon.html",
+    "title": "Quarto social embeds",
+    "section": "",
+    "text": "This is a post on mastodon\nUses this shortcode:\n{{< mastodon \"https://mastodon.social/@sellorm/109376707453406631\" >}}\n\n\n\n\n\n\nNote\n\n\n\nYou must enclose the Mastodon URL in quotes, or the post will not be displayed.\n\n\n  \nYou can obtain the username and status id of a tweet by clicking the “share tweet” button and choosing “copy URL”.\nThis will give you a URL like this one: https://twitter.com/juliesquid/status/1557485909486059523. The “user” is the section between twitter.com/ and /status. The status “id” is everything between status/ and the end of the URL or ?, whichever comes first."
+  },
+  {
     "objectID": "examples/gists.html",
     "href": "examples/gists.html",
     "title": "Quarto social embeds",
@@ -40,6 +47,13 @@
     "title": "social embedding examples",
     "section": "",
     "text": "Here is a gist I wrote:\nUses the shortcode:\n{{< gist sellorm 20525aff669acafb975b7495b8f2066e >}}\n\nGists can be pretty handy."
+  },
+  {
+    "objectID": "example.html#mastodon",
+    "href": "example.html#mastodon",
+    "title": "social embedding examples",
+    "section": "Mastodon",
+    "text": "Mastodon\nThis is a post on mastodon\nUses this shortcode:\n{{< mastodon \"https://mastodon.social/@sellorm/109376707453406631\" >}}\n\n\n\n\n\n\nNote\n\n\n\nYou must enclose the Mastodon URL in quotes, or the post will not be displayed.\n\n\n  \nYou can obtain the username and status id of a tweet by clicking the “share tweet” button and choosing “copy URL”.\nThis will give you a URL like this one: https://twitter.com/juliesquid/status/1557485909486059523. The “user” is the section between twitter.com/ and /status. The status “id” is everything between status/ and the end of the URL or ?, whichever comes first."
   },
   {
     "objectID": "example.html#twitter",
@@ -63,17 +77,10 @@
     "text": "Youtube\nThis is a video I created for rstudio::conf(2022).\nUses the shortcode:\n{{< youtube zk9zHqXm6m0 >}}\n\nThe video is about my R4Pi project."
   },
   {
-    "objectID": "example.html#mastodon",
-    "href": "example.html#mastodon",
-    "title": "social embedding examples",
-    "section": "Mastodon",
-    "text": "Mastodon\nThis is a post on mastodon\nUses this shortcode:\n{{< mastodon https://mastodon.social/@sellorm/109376707453406631 >}}"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Quarto social embeds",
     "section": "",
-    "text": "A Quarto extension to embed content from across the web into a quarto-rendered html document using a shortcode.\nCurrently includes shortcodes for the following:\n\nGitHub gists\nLoom\nTwitter\nVimeo\nYoutube\n\n\n\nInstall the extension with:\nquarto install extension sellorm/quarto-social-embeds\n\n\n\nCheck the individual examples in the navbar above for specific examples.\nThis site was built using the extension, so the examples are actual working examples. Check the GitHub repo to see the site’s underlying .qmd files.\n\n\n\nquarto-social-embeds is released under an MIT License. See the LICENSE for more info."
+    "text": "A Quarto extension to embed content from across the web into a quarto-rendered html document using a shortcode.\nCurrently includes shortcodes for the following:\n\nGitHub gists\nLoom\nMastodon\nTwitter\nVimeo\nYoutube\n\n\n\nInstall the extension with:\nquarto install extension sellorm/quarto-social-embeds\n\n\n\nCheck the individual examples in the navbar above for specific examples.\nThis site was built using the extension, so the examples are actual working examples. Check the GitHub repo to see the site’s underlying .qmd files.\n\n\n\nquarto-social-embeds is released under an MIT License. See the LICENSE for more info."
   }
 ]

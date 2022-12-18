@@ -160,6 +160,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
  <span class="dropdown-text">Loom</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="./examples/mastodon.html">
+ <span class="dropdown-text">Mastodon</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="./examples/twitter.html">
  <span class="dropdown-text">Twitter</span></a>
   </li>  
@@ -176,7 +180,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/sellorm"><i class="bi bi-twitter" role="img" aria-label="sellorm Twitter">
+    <a class="nav-link" href="https://mastodon.social/@sellorm"><i class="bi bi-mastodon" role="img" aria-label="sellorm Mastodon">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -203,10 +207,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <li><a href="#github-gists" id="toc-github-gists" class="nav-link active" data-scroll-target="#github-gists">GitHub gists</a></li>
   <li><a href="#loom" id="toc-loom" class="nav-link" data-scroll-target="#loom">Loom</a>
   <ul class="collapse">
+  <li><a href="#mastodon" id="toc-mastodon" class="nav-link" data-scroll-target="#mastodon">Mastodon</a></li>
   <li><a href="#twitter" id="toc-twitter" class="nav-link" data-scroll-target="#twitter">Twitter</a></li>
   <li><a href="#vimeo" id="toc-vimeo" class="nav-link" data-scroll-target="#vimeo">Vimeo</a></li>
   <li><a href="#youtube" id="toc-youtube" class="nav-link" data-scroll-target="#youtube">Youtube</a></li>
-  <li><a href="#mastodon" id="toc-mastodon" class="nav-link" data-scroll-target="#mastodon">Mastodon</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/sellorm/quarto-social-embeds/edit/main/example.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/sellorm/quarto-social-embeds/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -248,17 +252,39 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Which renders like this:</p>
 <p></p><div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/8619b03224f74282b6d56cbedbcd3fc6" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div><p></p>
 <p>You can get the VIDEO ID from for the URL of the video. For instance, in the URL <code>https://www.loom.com/share/8619b03224f74282b6d56cbedbcd3fc6</code> the video ID is <code>8619b03224f74282b6d56cbedbcd3fc6</code>.</p>
+<section id="mastodon" class="level2">
+<h2 class="anchored" data-anchor-id="mastodon">Mastodon</h2>
+<p>This is a post on mastodon</p>
+<p>Uses this shortcode:</p>
+<div class="sourceCode" id="cb4" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>{{&lt; mastodon "https://mastodon.social/@sellorm/109376707453406631" &gt;}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You <em>must</em> enclose the Mastodon URL in quotes, or the post will not be displayed.</p>
+</div>
+</div>
+<p></p><div style="position: relative; padding-bottom: 56.25%; height: 0;"> <iframe src="https://mastodon.social/@sellorm/109376707453406631/embed" class="mastodon-embed" style="max-width: 100%; border: 0;" width="100%" height="400" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.social/embed.js" async="async"></script></div> <p></p>
+<p>You can obtain the username and status id of a tweet by clicking the “share tweet” button and choosing “copy URL”.</p>
+<p>This will give you a URL like this one: <code>https://twitter.com/juliesquid/status/1557485909486059523</code>. The “user” is the section between <code>twitter.com/</code> and <code>/status</code>. The status “id” is everything between <code>status/</code> and the end of the URL or <code>?</code>, whichever comes first.</p>
+</section>
 <section id="twitter" class="level2">
 <h2 class="anchored" data-anchor-id="twitter">Twitter</h2>
 <p>Here is a tweet that I tweeted on Twitter:</p>
 <p>(Uses the shortcode: <code>https://twitter.com/juliesquid/status/1557485909486059523</code>)</p>
-<p></p><div id="tweet-59940"></div><script>tweet={"url":"https:\/\/twitter.com\/juliesquid\/status\/1557485909486059523","author_name":"Dr. Julia Stewart Lowndes","author_url":"https:\/\/twitter.com\/juliesquid","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EA short blog about summarizing our \u003Ca href=\"https:\/\/twitter.com\/hashtag\/rstudioconf2022?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#rstudioconf2022\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/hashtag\/rstudioconf?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#rstudioconf\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/quarto_pub?ref_src=twsrc%5Etfw\"\u003E@quarto_pub\u003C\/a\u003E keynote - I am so grateful for the opportunity to learn &amp; build with so many people at this cool intersection of actionable \u003Ca href=\"https:\/\/twitter.com\/hashtag\/environmental?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#environmental\u003C\/a\u003E science, data science, &amp; open science \uD83D\uDCAB\u003Ca href=\"https:\/\/t.co\/JK67QHzbHc\"\u003Ehttps:\/\/t.co\/JK67QHzbHc\u003C\/a\u003E\u003C\/p\u003E&mdash; Dr. Julia Stewart Lowndes (@juliesquid) \u003Ca href=\"https:\/\/twitter.com\/juliesquid\/status\/1557485909486059523?ref_src=twsrc%5Etfw\"\u003EAugust 10, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-59940").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-78026"></div><script>tweet={"url":"https:\/\/twitter.com\/juliesquid\/status\/1557485909486059523","author_name":"Dr. Julia Stewart Lowndes","author_url":"https:\/\/twitter.com\/juliesquid","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EA short blog about summarizing our \u003Ca href=\"https:\/\/twitter.com\/hashtag\/rstudioconf2022?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#rstudioconf2022\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/hashtag\/rstudioconf?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#rstudioconf\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/quarto_pub?ref_src=twsrc%5Etfw\"\u003E@quarto_pub\u003C\/a\u003E keynote - I am so grateful for the opportunity to learn &amp; build with so many people at this cool intersection of actionable \u003Ca href=\"https:\/\/twitter.com\/hashtag\/environmental?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#environmental\u003C\/a\u003E science, data science, &amp; open science \uD83D\uDCAB\u003Ca href=\"https:\/\/t.co\/JK67QHzbHc\"\u003Ehttps:\/\/t.co\/JK67QHzbHc\u003C\/a\u003E\u003C\/p\u003E&mdash; Dr. Julia Stewart Lowndes (@juliesquid) \u003Ca href=\"https:\/\/twitter.com\/juliesquid\/status\/1557485909486059523?ref_src=twsrc%5Etfw\"\u003EAugust 10, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-78026").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="vimeo" class="level2">
 <h2 class="anchored" data-anchor-id="vimeo">Vimeo</h2>
 <p>A video from Vimeo:</p>
 <p>Uses the shortcode:</p>
-<div class="sourceCode" id="cb4" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>{{&lt; vimeo 22439234 &gt;}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>{{&lt; vimeo 22439234 &gt;}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p></p><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"> <iframe src="https://player.vimeo.com/video/22439234" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe> </div> <p></p>
 <p>It’s very beautiful.</p>
 </section>
@@ -266,16 +292,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2 class="anchored" data-anchor-id="youtube">Youtube</h2>
 <p>This is a video I created for <a href="https://www.rstudio.com/conference/">rstudio::conf(2022)</a>.</p>
 <p>Uses the shortcode:</p>
-<div class="sourceCode" id="cb5" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>{{&lt; youtube zk9zHqXm6m0 &gt;}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>{{&lt; youtube zk9zHqXm6m0 &gt;}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p></p><div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/zk9zHqXm6m0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
 <p>The video is about my <a href="https://r4pi.org">R4Pi</a> project.</p>
-</section>
-<section id="mastodon" class="level2">
-<h2 class="anchored" data-anchor-id="mastodon">Mastodon</h2>
-<p>This is a post on mastodon</p>
-<p>Uses this shortcode:</p>
-<div class="sourceCode" id="cb6" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>{{&lt; mastodon https://mastodon.social/@sellorm/109376707453406631 &gt;}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p></p><div style="position: relative; padding-bottom: 56.25%; height: 0;"> <iframe src="https://mastodon.social//embed" class="mastodon-embed" style="max-width: 100%; border: 0;" width="100%" height="400" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.social/embed.js" async="async"></script></div> <p></p>
 
 
 </section>

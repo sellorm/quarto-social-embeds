@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Quarto social embeds – vimeo</title>
+<title>Quarto social embeds – mastodon</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -205,15 +205,27 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 
-<section id="vimeo" class="level1">
-<h1>Vimeo</h1>
-<p>To embed a Vimeo video in your HTML document use this shortcode:</p>
-<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>{{&lt; vimeo <span class="kw">&lt;VIDEO_ID&gt;</span> &gt;}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Where <code>&lt;VIDEO_ID&gt;</code> is the vimeo video ID. For example:</p>
-<div class="sourceCode" id="cb2" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>{{&lt; vimeo 22439234 &gt;}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Which renders like this:</p>
-<p></p><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"> <iframe src="https://player.vimeo.com/video/22439234" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe> </div> <p></p>
-<p>You can get the VIDEO ID from for the URL of the video. For instance, in the URL <code>https://vimeo.com/channels/top/22439234</code> the video ID is <code>22439234</code>.</p>
+<section id="mastodon" class="level2">
+<h2 class="anchored" data-anchor-id="mastodon">Mastodon</h2>
+<p>This is a post on mastodon</p>
+<p>Uses this shortcode:</p>
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>{{&lt; mastodon "https://mastodon.social/@sellorm/109376707453406631" &gt;}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You <em>must</em> enclose the Mastodon URL in quotes, or the post will not be displayed.</p>
+</div>
+</div>
+<p></p><div style="position: relative; padding-bottom: 56.25%; height: 0;"> <iframe src="https://mastodon.social/@sellorm/109376707453406631/embed" class="mastodon-embed" style="max-width: 100%; border: 0;" width="100%" height="400" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.social/embed.js" async="async"></script></div> <p></p>
+<p>You can obtain the username and status id of a tweet by clicking the “share tweet” button and choosing “copy URL”.</p>
+<p>This will give you a URL like this one: <code>https://twitter.com/juliesquid/status/1557485909486059523</code>. The “user” is the section between <code>twitter.com/</code> and <code>/status</code>. The status “id” is everything between <code>status/</code> and the end of the URL or <code>?</code>, whichever comes first.</p>
 
 
 </section>
