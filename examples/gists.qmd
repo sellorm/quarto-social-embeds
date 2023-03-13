@@ -5,6 +5,7 @@ Embed a gist using:
 ``` {.markdown shortcodes="false"}
 {{< gist <USERNAME> <GIST_ID> >}}
 ``` 
+
 Both `<USERNAME>` and `<GIST_ID>` can be extracted from the gist URL.
 For instance, in this URL `https://gist.github.com/sellorm/20525aff669acafb975b7495b8f2066e` the username is `sellorm` and the ID is `20525aff669acafb975b7495b8f2066e`, giving us:
 
@@ -15,3 +16,15 @@ For instance, in this URL `https://gist.github.com/sellorm/20525aff669acafb975b7
 Which is rendered like this:
 
 {{< gist sellorm 20525aff669acafb975b7495b8f2066e >}}
+
+GitHub's gists can contain more than one file and if you'd like to embed a
+specific file from a gist, you can use the shortcode's optional third parameter
+to supply the filename.
+
+For example:
+
+``` {.markdown shortcodes="false"}
+{{< gist <USERNAME> <GIST_ID> <FILENAME> >}}
+```
+
+
