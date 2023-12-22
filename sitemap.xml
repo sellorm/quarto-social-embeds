@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://quarto-social-embeds.sellorm.com/index.html</loc>
-    <lastmod>2023-03-13T17:02:17.747Z</lastmod>
-  </url>
-  <url>
-    <loc>https://quarto-social-embeds.sellorm.com/examples/youtube.html</loc>
-    <lastmod>2023-03-13T17:02:18.411Z</lastmod>
-  </url>
-  <url>
     <loc>https://quarto-social-embeds.sellorm.com/examples/mastodon.html</loc>
-    <lastmod>2023-03-13T17:02:18.715Z</lastmod>
-  </url>
-  <url>
-    <loc>https://quarto-social-embeds.sellorm.com/examples/loom.html</loc>
-    <lastmod>2023-03-13T17:02:19.011Z</lastmod>
-  </url>
-  <url>
-    <loc>https://quarto-social-embeds.sellorm.com/examples/vimeo.html</loc>
-    <lastmod>2023-03-13T17:02:19.339Z</lastmod>
+    <lastmod>2023-12-22T16:58:28.132Z</lastmod>
   </url>
   <url>
     <loc>https://quarto-social-embeds.sellorm.com/examples/twitter.html</loc>
-    <lastmod>2023-03-13T17:02:19.851Z</lastmod>
+    <lastmod>2023-12-22T16:58:27.660Z</lastmod>
   </url>
   <url>
     <loc>https://quarto-social-embeds.sellorm.com/examples/gists.html</loc>
-    <lastmod>2023-03-13T17:02:20.151Z</lastmod>
+    <lastmod>2023-12-22T16:58:26.976Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quarto-social-embeds.sellorm.com/index.html</loc>
+    <lastmod>2023-12-22T16:58:25.924Z</lastmod>
   </url>
   <url>
     <loc>https://quarto-social-embeds.sellorm.com/example.html</loc>
-    <lastmod>2023-03-13T17:02:20.675Z</lastmod>
+    <lastmod>2023-12-22T16:58:26.708Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quarto-social-embeds.sellorm.com/examples/vimeo.html</loc>
+    <lastmod>2023-12-22T16:58:27.228Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quarto-social-embeds.sellorm.com/examples/loom.html</loc>
+    <lastmod>2023-12-22T16:58:27.892Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quarto-social-embeds.sellorm.com/examples/youtube.html</loc>
+    <lastmod>2023-12-22T16:58:28.388Z</lastmod>
   </url>
 </urlset>

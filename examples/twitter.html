@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,9 +17,10 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -46,43 +47,13 @@ pre.numberSource code > span > a:first-child::before
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
     padding: 0 4px; width: 4em;
-    color: #aaaaaa;
   }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
 div.sourceCode
   {   }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -118,7 +89,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -137,42 +109,43 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <span class="navbar-title">Quarto social embeds</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-examples" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-examples" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Examples</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-examples">    
         <li>
-    <a class="dropdown-item" href="../examples/gists.html">
+    <a class="dropdown-item" href="../examples/gists.html" rel="" target="">
  <span class="dropdown-text">GitHub gists</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../examples/loom.html">
+    <a class="dropdown-item" href="../examples/loom.html" rel="" target="">
  <span class="dropdown-text">Loom</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../examples/mastodon.html">
+    <a class="dropdown-item" href="../examples/mastodon.html" rel="" target="">
  <span class="dropdown-text">Mastodon</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../examples/twitter.html">
+    <a class="dropdown-item" href="../examples/twitter.html" rel="" target="">
  <span class="dropdown-text">Twitter</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../examples/vimeo.html">
+    <a class="dropdown-item" href="../examples/vimeo.html" rel="" target="">
  <span class="dropdown-text">Vimeo</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../examples/youtube.html">
+    <a class="dropdown-item" href="../examples/youtube.html" rel="" target="">
  <span class="dropdown-text">Youtube</span></a>
   </li>  
     </ul>
@@ -180,17 +153,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://mastodon.social/@sellorm"><i class="bi bi-mastodon" role="img" aria-label="sellorm Mastodon">
+    <a class="nav-link" href="https://mastodon.social/@sellorm" rel="" target=""><i class="bi bi-mastodon" role="img" aria-label="sellorm Mastodon">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/sellorm/quarto-social-embeds"><i class="bi bi-github" role="img" aria-label="GitHub">
+    <a class="nav-link" href="https://github.com/sellorm/quarto-social-embeds" rel="" target=""><i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -217,7 +191,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>or</p>
 <div class="sourceCode" id="cb4" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>{{&lt; tweet user=juliesquid id=1557485909486059523 &gt;}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>This renders like this:</p>
-<p></p><div id="tweet-16703"></div><script>tweet={"url":"https:\/\/twitter.com\/juliesquid\/status\/1557485909486059523","author_name":"Dr Julia Stewart Lowndes @juliesquid@fosstodon.org","author_url":"https:\/\/twitter.com\/juliesquid","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EA short blog about summarizing our \u003Ca href=\"https:\/\/twitter.com\/hashtag\/rstudioconf2022?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#rstudioconf2022\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/hashtag\/rstudioconf?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#rstudioconf\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/quarto_pub?ref_src=twsrc%5Etfw\"\u003E@quarto_pub\u003C\/a\u003E keynote - I am so grateful for the opportunity to learn &amp; build with so many people at this cool intersection of actionable \u003Ca href=\"https:\/\/twitter.com\/hashtag\/environmental?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#environmental\u003C\/a\u003E science, data science, &amp; open science \uD83D\uDCAB\u003Ca href=\"https:\/\/t.co\/JK67QHzbHc\"\u003Ehttps:\/\/t.co\/JK67QHzbHc\u003C\/a\u003E\u003C\/p\u003E&mdash; Dr Julia Stewart Lowndes @juliesquid@fosstodon.org (@juliesquid) \u003Ca href=\"https:\/\/twitter.com\/juliesquid\/status\/1557485909486059523?ref_src=twsrc%5Etfw\"\u003EAugust 10, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-16703").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-90588"></div><script>tweet={"url":"https:\/\/twitter.com\/juliesquid\/status\/1557485909486059523","author_name":"Dr Julia Stewart Lowndes @juliesquid@fosstodon.org","author_url":"https:\/\/twitter.com\/juliesquid","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EA short blog about summarizing our \u003Ca href=\"https:\/\/twitter.com\/hashtag\/rstudioconf2022?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#rstudioconf2022\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/hashtag\/rstudioconf?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#rstudioconf\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/quarto_pub?ref_src=twsrc%5Etfw\"\u003E@quarto_pub\u003C\/a\u003E keynote - I am so grateful for the opportunity to learn &amp; build with so many people at this cool intersection of actionable \u003Ca href=\"https:\/\/twitter.com\/hashtag\/environmental?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#environmental\u003C\/a\u003E science, data science, &amp; open science \uD83D\uDCAB\u003Ca href=\"https:\/\/t.co\/JK67QHzbHc\"\u003Ehttps:\/\/t.co\/JK67QHzbHc\u003C\/a\u003E\u003C\/p\u003E&mdash; Dr Julia Stewart Lowndes @juliesquid@fosstodon.org (@juliesquid) \u003Ca href=\"https:\/\/twitter.com\/juliesquid\/status\/1557485909486059523?ref_src=twsrc%5Etfw\"\u003EAugust 10, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-90588").innerHTML = tweet["html"];</script><p></p>
 <p>You can obtain the username and status id of a tweet by clicking the “share tweet” button and choosing “copy URL”.</p>
 <p>This will give you a URL like this one: <code>https://twitter.com/juliesquid/status/1557485909486059523</code>. The “user” is the section between <code>twitter.com/</code> and <code>/status</code>. The status “id” is everything between <code>status/</code> and the end of the URL or <code>?</code>, whichever comes first.</p>
 
@@ -252,9 +226,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -319,6 +307,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -362,5 +436,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="https://platform.twitter.com/widgets.js"></script>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/sellorm/quarto-social-embeds/edit/main/examples/twitter.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/sellorm/quarto-social-embeds/issues/new" class="toc-action">Report an issue</a></p></div></div></div></div></footer><script src="https://platform.twitter.com/widgets.js"></script>
 </body></html>
