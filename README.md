@@ -9,6 +9,7 @@ Currently includes shortcodes for the following:
 * Twitter
 * Vimeo
 * Youtube
+* Mastodon
 
 ## Installation
 
