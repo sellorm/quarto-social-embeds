@@ -7,6 +7,17 @@ format:
 
 ---
 
+## Bluesky posts
+
+Here's a post from Bluesky:
+
+Uses the shortcode: 
+```{.markdown shortcodes="false"} 
+{{< bsky 3lgyb5za7bc2b >}}
+```
+
+{{< bsky 3lgyb5za7bc2b >}}
+
 ## GitHub gists
 
 Here is a gist I wrote:

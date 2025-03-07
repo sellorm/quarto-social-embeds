@@ -12,6 +12,7 @@ website:
         text: Home
       - text: Examples
         menu: 
+        - examples/bsky.qmd
         - examples/gists.qmd
         - examples/loom.qmd
         - examples/mastodon.qmd

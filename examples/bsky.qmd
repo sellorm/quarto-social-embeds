@@ -1,0 +1,22 @@
+# Bluesky
+
+To embed a Bluesky post into your Quarto html document you can use the shortcode like this:
+
+``` {.markdown shortcodes="false"}
+{{< bsky <POST_ID> >}}
+```
+
+Where `<POST_ID>` is the Bluesky post ID from the URL. For example:
+
+``` {.markdown shortcodes="false"}
+{{< bsky 3lgyb5za7bc2b >}}
+```
+
+Which is rendered like this:
+
+{{< bsky 3lgyb5za7bc2b >}}
+
+You can obtain the post ID by inspecting Bluesky's URLs.
+
+For instance, in this URL, `https://bsky.app/profile/sellorm.com/post/3lgyb5za7bc2b` the post ID is the part after the last '/' in the URL.
+
