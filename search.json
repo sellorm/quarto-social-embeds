@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "examples/twitter.html",
+    "href": "examples/twitter.html",
+    "title": "Twitter",
+    "section": "",
+    "text": "Twitter\nTo embed a Tweet into your Quarto html document you can use the shortcode like this:\n{{&lt; tweet &lt;USERNAME&gt; &lt;ID&gt; &gt;}}\nor\n{{&lt; tweet user=&lt;USERNAME&gt; id=&lt;ID&gt; &gt;}}\nThis second option is provided for compatibility with Hugo.\nFor example:\n{{&lt; tweet juliesquid 1557485909486059523 &gt;}}\nor\n{{&lt; tweet user=juliesquid id=1557485909486059523 &gt;}}\nThis renders like this:\n\nYou can obtain the username and status id of a tweet by clicking the “share tweet” button and choosing “copy URL”.\nThis will give you a URL like this one: https://twitter.com/juliesquid/status/1557485909486059523. The “user” is the section between twitter.com/ and /status. The status “id” is everything between status/ and the end of the URL or ?, whichever comes first."
+  },
+  {
+    "objectID": "examples/loom.html",
+    "href": "examples/loom.html",
+    "title": "Loom",
+    "section": "",
+    "text": "Loom\nTo embed a Loom video in your HTML document use this shortcode:\n{{&lt; loom &lt;VIDEO_ID&gt; &gt;}}\nWhere &lt;VIDEO_ID&gt; is the loom video ID. For example:\n{{&lt; loom 8619b03224f74282b6d56cbedbcd3fc6 &gt;}}\nWhich renders like this:\n\nYou can get the VIDEO ID from for the URL of the video. For instance, in the URL https://www.loom.com/share/8619b03224f74282b6d56cbedbcd3fc6 the video ID is 8619b03224f74282b6d56cbedbcd3fc6."
+  },
+  {
+    "objectID": "examples/gists.html",
+    "href": "examples/gists.html",
+    "title": "GitHub gists",
+    "section": "",
+    "text": "GitHub gists\nEmbed a gist using:\n{{&lt; gist &lt;USERNAME&gt; &lt;GIST_ID&gt; &gt;}}\nBoth &lt;USERNAME&gt; and &lt;GIST_ID&gt; can be extracted from the gist URL. For instance, in this URL https://gist.github.com/sellorm/20525aff669acafb975b7495b8f2066e the username is sellorm and the ID is 20525aff669acafb975b7495b8f2066e, giving us:\n{{&lt; gist sellorm 20525aff669acafb975b7495b8f2066e &gt;}}\nWhich is rendered like this:\n\nGitHub’s gists can contain more than one file and if you’d like to embed a specific file from a gist, you can use the shortcode’s optional third parameter to supply the filename.\nFor example:\n{{&lt; gist &lt;USERNAME&gt; &lt;GIST_ID&gt; &lt;FILENAME&gt; &gt;}}"
+  },
+  {
+    "objectID": "examples/bsky.html",
+    "href": "examples/bsky.html",
+    "title": "Bluesky",
+    "section": "",
+    "text": "Bluesky\nTo embed a Bluesky post into your Quarto html document you can use the shortcode like this:\n{{&lt; bsky &lt;POST_ID&gt; &gt;}}\nWhere &lt;POST_ID&gt; is the Bluesky post ID from the URL. For example:\n{{&lt; bsky 3lgyb5za7bc2b &gt;}}\nWhich is rendered like this:\n\nYou can obtain the post ID by inspecting Bluesky’s URLs.\nFor instance, in this URL, https://bsky.app/profile/sellorm.com/post/3lgyb5za7bc2b the post ID is the part after the last ‘/’ in the URL."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Quarto social embeds",
@@ -28,67 +56,25 @@
     "text": "quarto-social-embeds is released under an MIT License. See the LICENSE for more info."
   },
   {
-    "objectID": "examples/mastodon.html",
-    "href": "examples/mastodon.html",
-    "title": "Quarto social embeds",
-    "section": "",
-    "text": "This is a post on mastodon\nUses this shortcode:\n{{&lt; mastodon \"https://mastodon.social/@sellorm/109376707453406631\" &gt;}}\n\n\n\n\n\n\nNote\n\n\n\nYou must enclose the Mastodon URL in quotes, or the post will not be displayed.\n\n\n  \nYou can obtain the username and status id of a tweet by clicking the “share tweet” button and choosing “copy URL”.\nThis will give you a URL like this one: https://twitter.com/juliesquid/status/1557485909486059523. The “user” is the section between twitter.com/ and /status. The status “id” is everything between status/ and the end of the URL or ?, whichever comes first."
-  },
-  {
-    "objectID": "examples/mastodon.html#mastodon",
-    "href": "examples/mastodon.html#mastodon",
-    "title": "Quarto social embeds",
-    "section": "",
-    "text": "This is a post on mastodon\nUses this shortcode:\n{{&lt; mastodon \"https://mastodon.social/@sellorm/109376707453406631\" &gt;}}\n\n\n\n\n\n\nNote\n\n\n\nYou must enclose the Mastodon URL in quotes, or the post will not be displayed.\n\n\n  \nYou can obtain the username and status id of a tweet by clicking the “share tweet” button and choosing “copy URL”.\nThis will give you a URL like this one: https://twitter.com/juliesquid/status/1557485909486059523. The “user” is the section between twitter.com/ and /status. The status “id” is everything between status/ and the end of the URL or ?, whichever comes first."
-  },
-  {
-    "objectID": "examples/vimeo.html",
-    "href": "examples/vimeo.html",
-    "title": "Vimeo",
-    "section": "",
-    "text": "Vimeo\nTo embed a Vimeo video in your HTML document use this shortcode:\n{{&lt; vimeo &lt;VIDEO_ID&gt; &gt;}}\nWhere &lt;VIDEO_ID&gt; is the vimeo video ID. For example:\n{{&lt; vimeo 22439234 &gt;}}\nWhich renders like this:\n   \nYou can get the VIDEO ID from for the URL of the video. For instance, in the URL https://vimeo.com/channels/top/22439234 the video ID is 22439234."
-  },
-  {
-    "objectID": "examples/gists.html",
-    "href": "examples/gists.html",
-    "title": "GitHub gists",
-    "section": "",
-    "text": "GitHub gists\nEmbed a gist using:\n{{&lt; gist &lt;USERNAME&gt; &lt;GIST_ID&gt; &gt;}}\nBoth &lt;USERNAME&gt; and &lt;GIST_ID&gt; can be extracted from the gist URL. For instance, in this URL https://gist.github.com/sellorm/20525aff669acafb975b7495b8f2066e the username is sellorm and the ID is 20525aff669acafb975b7495b8f2066e, giving us:\n{{&lt; gist sellorm 20525aff669acafb975b7495b8f2066e &gt;}}\nWhich is rendered like this:\n\nGitHub’s gists can contain more than one file and if you’d like to embed a specific file from a gist, you can use the shortcode’s optional third parameter to supply the filename.\nFor example:\n{{&lt; gist &lt;USERNAME&gt; &lt;GIST_ID&gt; &lt;FILENAME&gt; &gt;}}"
-  },
-  {
-    "objectID": "examples/youtube.html",
-    "href": "examples/youtube.html",
-    "title": "Youtube",
-    "section": "",
-    "text": "Youtube\nTo embed a Youtube video into your Quarto html document you can use the shortcode like this:\n{{&lt; youtube &lt;VIDEO_ID&gt; &gt;}}\nWhere &lt;VIDEO_ID&gt; is the youtube video ID. For example:\n{{&lt; youtube zk9zHqXm6m0 &gt;}}\nWhich is rendered like this:\n\nYou can obtain the video ID by inspecting Youtube’s URLs.\nFor instance, in this URL, https://www.youtube.com/watch?v=zk9zHqXm6m0 the video ID is the part after v= in the URL."
-  },
-  {
-    "objectID": "examples/twitter.html",
-    "href": "examples/twitter.html",
-    "title": "Twitter",
-    "section": "",
-    "text": "Twitter\nTo embed a Tweet into your Quarto html document you can use the shortcode like this:\n{{&lt; tweet &lt;USERNAME&gt; &lt;ID&gt; &gt;}}\nor\n{{&lt; tweet user=&lt;USERNAME&gt; id=&lt;ID&gt; &gt;}}\nThis second option is provided for compatibility with Hugo.\nFor example:\n{{&lt; tweet juliesquid 1557485909486059523 &gt;}}\nor\n{{&lt; tweet user=juliesquid id=1557485909486059523 &gt;}}\nThis renders like this:\n\nYou can obtain the username and status id of a tweet by clicking the “share tweet” button and choosing “copy URL”.\nThis will give you a URL like this one: https://twitter.com/juliesquid/status/1557485909486059523. The “user” is the section between twitter.com/ and /status. The status “id” is everything between status/ and the end of the URL or ?, whichever comes first."
-  },
-  {
-    "objectID": "examples/loom.html",
-    "href": "examples/loom.html",
-    "title": "Loom",
-    "section": "",
-    "text": "Loom\nTo embed a Loom video in your HTML document use this shortcode:\n{{&lt; loom &lt;VIDEO_ID&gt; &gt;}}\nWhere &lt;VIDEO_ID&gt; is the loom video ID. For example:\n{{&lt; loom 8619b03224f74282b6d56cbedbcd3fc6 &gt;}}\nWhich renders like this:\n\nYou can get the VIDEO ID from for the URL of the video. For instance, in the URL https://www.loom.com/share/8619b03224f74282b6d56cbedbcd3fc6 the video ID is 8619b03224f74282b6d56cbedbcd3fc6."
-  },
-  {
     "objectID": "example.html",
     "href": "example.html",
     "title": "social embedding examples",
     "section": "",
-    "text": "Here is a gist I wrote:\nUses the shortcode:\n{{&lt; gist sellorm 20525aff669acafb975b7495b8f2066e &gt;}}\n\nGists can be pretty handy."
+    "text": "Here’s a post from Bluesky:\nUses the shortcode:\n{{&lt; bsky 3lgyb5za7bc2b &gt;}}"
+  },
+  {
+    "objectID": "example.html#bluesky-posts",
+    "href": "example.html#bluesky-posts",
+    "title": "social embedding examples",
+    "section": "",
+    "text": "Here’s a post from Bluesky:\nUses the shortcode:\n{{&lt; bsky 3lgyb5za7bc2b &gt;}}"
   },
   {
     "objectID": "example.html#github-gists",
     "href": "example.html#github-gists",
     "title": "social embedding examples",
-    "section": "",
-    "text": "Here is a gist I wrote:\nUses the shortcode:\n{{&lt; gist sellorm 20525aff669acafb975b7495b8f2066e &gt;}}\n\nGists can be pretty handy."
+    "section": "GitHub gists",
+    "text": "GitHub gists\nHere is a gist I wrote:\nUses the shortcode:\n{{&lt; gist sellorm 20525aff669acafb975b7495b8f2066e &gt;}}\n\nGists can be pretty handy."
   },
   {
     "objectID": "example.html#mastodon",
@@ -117,5 +103,33 @@
     "title": "social embedding examples",
     "section": "Youtube",
     "text": "Youtube\nThis is a video I created for rstudio::conf(2022).\nUses the shortcode:\n{{&lt; youtube zk9zHqXm6m0 &gt;}}\n\nThe video is about my R4Pi project."
+  },
+  {
+    "objectID": "examples/mastodon.html",
+    "href": "examples/mastodon.html",
+    "title": "Quarto social embeds",
+    "section": "",
+    "text": "This is a post on mastodon\nUses this shortcode:\n{{&lt; mastodon \"https://mastodon.social/@sellorm/109376707453406631\" &gt;}}\n\n\n\n\n\n\nNote\n\n\n\nYou must enclose the Mastodon URL in quotes, or the post will not be displayed.\n\n\n  \nYou can obtain the username and status id of a tweet by clicking the “share tweet” button and choosing “copy URL”.\nThis will give you a URL like this one: https://twitter.com/juliesquid/status/1557485909486059523. The “user” is the section between twitter.com/ and /status. The status “id” is everything between status/ and the end of the URL or ?, whichever comes first."
+  },
+  {
+    "objectID": "examples/mastodon.html#mastodon",
+    "href": "examples/mastodon.html#mastodon",
+    "title": "Quarto social embeds",
+    "section": "",
+    "text": "This is a post on mastodon\nUses this shortcode:\n{{&lt; mastodon \"https://mastodon.social/@sellorm/109376707453406631\" &gt;}}\n\n\n\n\n\n\nNote\n\n\n\nYou must enclose the Mastodon URL in quotes, or the post will not be displayed.\n\n\n  \nYou can obtain the username and status id of a tweet by clicking the “share tweet” button and choosing “copy URL”.\nThis will give you a URL like this one: https://twitter.com/juliesquid/status/1557485909486059523. The “user” is the section between twitter.com/ and /status. The status “id” is everything between status/ and the end of the URL or ?, whichever comes first."
+  },
+  {
+    "objectID": "examples/youtube.html",
+    "href": "examples/youtube.html",
+    "title": "Youtube",
+    "section": "",
+    "text": "Youtube\nTo embed a Youtube video into your Quarto html document you can use the shortcode like this:\n{{&lt; youtube &lt;VIDEO_ID&gt; &gt;}}\nWhere &lt;VIDEO_ID&gt; is the youtube video ID. For example:\n{{&lt; youtube zk9zHqXm6m0 &gt;}}\nWhich is rendered like this:\n\nYou can obtain the video ID by inspecting Youtube’s URLs.\nFor instance, in this URL, https://www.youtube.com/watch?v=zk9zHqXm6m0 the video ID is the part after v= in the URL."
+  },
+  {
+    "objectID": "examples/vimeo.html",
+    "href": "examples/vimeo.html",
+    "title": "Vimeo",
+    "section": "",
+    "text": "Vimeo\nTo embed a Vimeo video in your HTML document use this shortcode:\n{{&lt; vimeo &lt;VIDEO_ID&gt; &gt;}}\nWhere &lt;VIDEO_ID&gt; is the vimeo video ID. For example:\n{{&lt; vimeo 22439234 &gt;}}\nWhich renders like this:\n   \nYou can get the VIDEO ID from for the URL of the video. For instance, in the URL https://vimeo.com/channels/top/22439234 the video ID is 22439234."
   }
 ]
