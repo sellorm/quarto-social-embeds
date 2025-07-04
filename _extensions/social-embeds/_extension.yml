@@ -1,9 +1,8 @@
 title: social-embeds
 author: Mark Sellors
-version: 0.0.3
+version: 0.0.2
 contributes:
   shortcodes:
-    - bsky.lua
     - gists.lua
     - loom.lua
     - twitter.lua
