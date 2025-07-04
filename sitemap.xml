@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://quarto-social-embeds.sellorm.com/examples/twitter.html</loc>
-    <lastmod>2025-03-07T16:12:34.921Z</lastmod>
-  </url>
-  <url>
-    <loc>https://quarto-social-embeds.sellorm.com/examples/loom.html</loc>
-    <lastmod>2025-03-07T16:12:34.921Z</lastmod>
-  </url>
-  <url>
     <loc>https://quarto-social-embeds.sellorm.com/examples/gists.html</loc>
-    <lastmod>2025-03-07T16:12:34.921Z</lastmod>
-  </url>
-  <url>
-    <loc>https://quarto-social-embeds.sellorm.com/examples/bsky.html</loc>
-    <lastmod>2025-03-07T16:12:34.921Z</lastmod>
-  </url>
-  <url>
-    <loc>https://quarto-social-embeds.sellorm.com/index.html</loc>
-    <lastmod>2025-03-07T16:12:34.921Z</lastmod>
-  </url>
-  <url>
-    <loc>https://quarto-social-embeds.sellorm.com/example.html</loc>
-    <lastmod>2025-03-07T16:12:34.920Z</lastmod>
+    <lastmod>2025-07-04T14:26:06.776Z</lastmod>
   </url>
   <url>
     <loc>https://quarto-social-embeds.sellorm.com/examples/mastodon.html</loc>
-    <lastmod>2025-03-07T16:12:34.921Z</lastmod>
-  </url>
-  <url>
-    <loc>https://quarto-social-embeds.sellorm.com/examples/youtube.html</loc>
-    <lastmod>2025-03-07T16:12:34.921Z</lastmod>
+    <lastmod>2025-07-04T14:26:06.776Z</lastmod>
   </url>
   <url>
     <loc>https://quarto-social-embeds.sellorm.com/examples/vimeo.html</loc>
-    <lastmod>2025-03-07T16:12:34.921Z</lastmod>
+    <lastmod>2025-07-04T14:26:06.776Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quarto-social-embeds.sellorm.com/index.html</loc>
+    <lastmod>2025-07-04T14:26:06.777Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quarto-social-embeds.sellorm.com/example.html</loc>
+    <lastmod>2025-07-04T14:26:06.776Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quarto-social-embeds.sellorm.com/examples/twitter.html</loc>
+    <lastmod>2025-07-04T14:26:06.776Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quarto-social-embeds.sellorm.com/examples/loom.html</loc>
+    <lastmod>2025-07-04T14:26:06.776Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quarto-social-embeds.sellorm.com/examples/youtube.html</loc>
+    <lastmod>2025-07-04T14:26:06.777Z</lastmod>
   </url>
 </urlset>
