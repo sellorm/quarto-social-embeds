@@ -1,0 +1,34 @@
+# Bluesky
+
+This is a post on Bluesky
+
+Uses this shortcode:
+```{.markdown shortcodes="false"}
+{{< bsky "https://bsky.app/profile/smachlis.bsky.social/post/3m33g524hb22o" >}}
+```
+
+:::{.callout-note}
+You _must_ enclose the Bluesky URL in quotes, or the post will not be displayed.
+:::
+
+{{< bsky "https://bsky.app/profile/smachlis.bsky.social/post/3m33g524hb22o" >}}
+
+## Post with Image
+
+```{.markdown shortcodes="false"}
+{{< bsky "https://bsky.app/profile/smachlis.bsky.social/post/3m2ihwojd7s2f" >}}
+```
+
+{{< bsky "https://bsky.app/profile/smachlis.bsky.social/post/3m2ihwojd7s2f" >}}
+
+## Repost with Comment
+
+```{.markdown shortcodes="false"}
+{{< bsky "https://bsky.app/profile/smachlis.bsky.social/post/3m4nkjl3xxc27" >}}
+```
+
+{{< bsky "https://bsky.app/profile/smachlis.bsky.social/post/3m4nkjl3xxc27" >}}
+
+You can obtain the URL of a Bluesky post by clicking the menu button (•••) on the post and choosing "Copy link to post".
+
+This will give you a URL like: `https://bsky.app/profile/username/post/postid`.

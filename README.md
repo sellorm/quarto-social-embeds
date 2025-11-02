@@ -4,6 +4,7 @@ A [Quarto](https://quarto.org) extension to embed content from across the web in
 
 Currently includes shortcodes for the following:
 
+* Bluesky
 * GitHub gists
 * Loom
 * Twitter
@@ -30,6 +31,34 @@ Embed a gist using `{{< gist USERNAME GIST_ID >}}`. Both `USERNAME` and `GIST_ID
 ```
 
 See `example.qmd` for a working example.
+
+### Bluesky
+
+To embed a Bluesky post in your HTML document use this shortcode:
+
+```markdown
+{{< bsky "POST_URL" >}}
+```
+
+Where `POST_URL` is the full URL to the Bluesky post. For example:
+
+```markdown
+{{< bsky "https://bsky.app/profile/smachlis.bsky.social/post/3m33g524hb22o" >}}
+```
+
+**Note:** You must enclose the Bluesky URL in quotes.
+
+You can obtain the URL of a Bluesky post by clicking the menu button (•••) on the post and choosing "Copy link to post".
+
+This will give you a URL like: `https://bsky.app/profile/username/post/postid`.
+
+The shortcode supports all types of Bluesky posts including:
+- Plain text posts
+- Posts with images
+- Posts with links
+- Reposts with comments (quote posts)
+
+See `examples/bsky.qmd` for working examples.
 
 # Loom
 
