@@ -4,6 +4,7 @@ A [Quarto](https://quarto.org) extension to embed content from across the web in
 
 Currently includes shortcodes for the following:
 
+* [Bluesky](examples/bsky.qmd)
 * [GitHub gists](examples/gists.qmd)
 * [Loom](examples/loom.qmd)
 * [Mastodon](examples/mastodon.qmd)
